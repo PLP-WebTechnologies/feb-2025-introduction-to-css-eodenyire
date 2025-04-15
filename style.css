@@ -1,0 +1,48 @@
+/* Applying styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main title */
+.main-title {
+    color: #333; /* Dark text color */
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style the intro text */
+#intro-text {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the image */
+.styled-image {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #333; /* Border around the image */
+    padding: 10px;
+}
+
+/* Style the content box */
+.content-box {
+    background-color: white;
+    border: 2px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-box h2 {
+    color: #333;
+}
+
+.content-box p {
+    color: #666;
+}
